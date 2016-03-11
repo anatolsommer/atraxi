@@ -1,5 +1,10 @@
+0.0.2-beta / 2016-03-11
+=======================
+
+  * bugfixing
+
 0.0.1-beta / 2016-03-11
 =======================
 
-  * Initial release
+  * initial release
 
