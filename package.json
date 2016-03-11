@@ -1,0 +1,27 @@
+{
+  "name": "atraxi",
+  "description": "HTTP monitoring with telegram bot notification",
+  "version": "0.0.1-beta",
+  "license": "MIT",
+  "author": "Anatol Sommer <anatol@anatol.at>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anatolsommer/atraxi.git"
+  },
+  "keywords": [],
+  "dependencies": {
+    "async": "^1.5.2",
+    "node-telegram-bot-api": "^0.20.1",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.1",
+    "mocha": "^2.4.5",
+    "istanbul": "^0.4.2"
+  },
+  "scripts": {
+    "jshint": "jshint --show-non-errors lib/* && echo 'No errors!\n' ; set $?=0",
+    "test": "mocha --check-leaks test",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha test"
+  }
+}
