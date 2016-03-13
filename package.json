@@ -1,7 +1,7 @@
 {
   "name": "atraxi",
   "description": "HTTP monitoring with telegram bot notification",
-  "version": "0.0.2-beta",
+  "version": "0.0.3",
   "license": "MIT",
   "author": "Anatol Sommer <anatol@anatol.at>",
   "repository": {
@@ -11,7 +11,7 @@
   "keywords": [],
   "dependencies": {
     "async": "^1.5.2",
-    "node-telegram-bot-api": "^0.20.1",
+    "node-telegram-bot-api": "^0.21.1",
     "request": "^2.69.0"
   },
   "devDependencies": {
